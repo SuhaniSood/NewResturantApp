@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:background="#8BC34A"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <Button
+        android:id="@+id/button_Specials"
+        android:layout_width="216dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#CDDC39"
+        android:text="Specials"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintRight_toRightof="parent"></Button>
+
+    <Button
+        android:id="@+id/button_Desserts"
+        android:layout_width="216dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="284dp"
+        android:backgroundTint="#CDDC39"
+        android:text="Desserts"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintRight_toRightof="parent"></Button>
+
+    <Button
+        android:id="@+id/button_MainCourse"
+        android:layout_width="216dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="452dp"
+        android:backgroundTint="#CDDC39"
+        android:text="Main Course"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintRight_toRightof="parent"></Button>
+
+    <Button
+        android:id="@+id/button_Drinks"
+        android:layout_width="216dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#CDDC39"
+        android:text="Drinks"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintRight_toRightof="parent"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
