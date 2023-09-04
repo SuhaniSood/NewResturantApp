@@ -10,13 +10,13 @@
         android:id="@+id/Desserts"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#F44336"
-        android:text="Desserts"
+        android:background="@color/red_App"
+        android:text="@string/title_desserts"
         android:textAlignment="center"
-        android:textSize="50dp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
         android:id="@+id/button_Back"
@@ -24,11 +24,11 @@
         android:layout_height="36dp"
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#CDDC39"
+        android:backgroundTint="@color/yellow_App"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_constraintRight_toRightof="parent"></Button>
+        tools:layout_constraintRight_toRightof="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

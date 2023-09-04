@@ -24,7 +24,7 @@ class MenuFragment : Fragment() {
             val fragmentMain = MainCourseFragment()
 
             requireActivity().supportFragmentManager.beginTransaction()
-                .add(R.id.fragment_container, fragmentMain)
+                .replace(R.id.fragment_container, fragmentMain)
                 .addToBackStack(null)
                 .commit()
         }
@@ -32,7 +32,7 @@ class MenuFragment : Fragment() {
         drinksbutton.setOnClickListener {
             val fragmentMain = DrinksFragment()
             requireActivity().supportFragmentManager.beginTransaction()
-                .add(R.id.fragment_container, fragmentMain)
+                .replace(R.id.fragment_container, fragmentMain)
                 .addToBackStack(null)
                 .commit()
         }
@@ -40,7 +40,7 @@ class MenuFragment : Fragment() {
         dessertsbutton.setOnClickListener {
             val fragmentMain = DessertsFragment()
             requireActivity().supportFragmentManager.beginTransaction()
-                .add(R.id.fragment_container, fragmentMain)
+                .replace(R.id.fragment_container, fragmentMain)
                 .addToBackStack(null)
                 .commit()
         }
@@ -48,7 +48,7 @@ class MenuFragment : Fragment() {
         Specialbutton.setOnClickListener {
             val fragmentMain = SpecialsFragment()
             requireActivity().supportFragmentManager.beginTransaction()
-                .add(R.id.fragment_container, fragmentMain)
+                .replace(R.id.fragment_container, fragmentMain)
                 .addToBackStack(null)
                 .commit()
         }

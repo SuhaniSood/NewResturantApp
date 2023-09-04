@@ -22,7 +22,7 @@ class DessertsFragment : Fragment() {
         back.setOnClickListener {
             val fragmentMain = MenuFragment()
             requireActivity().supportFragmentManager.beginTransaction()
-                .add(R.id.fragment_container, fragmentMain)
+                .replace(R.id.fragment_container, fragmentMain)
                 .addToBackStack(null)
                 .commit()
         }

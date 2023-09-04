@@ -14,7 +14,7 @@ class DrinksFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         // Inflate the layout for this fragment
-       return inflater.inflate(R.layout.fragment__menu, container, false)
+       return inflater.inflate(R.layout.fragment_drinks, container, false)
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

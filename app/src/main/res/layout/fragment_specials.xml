@@ -10,13 +10,13 @@
         android:id="@+id/Specials"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#9C27B0"
-        android:text="Main Course"
+        android:background="@color/purple_App"
+        android:text="@string/title_specials"
         android:textAlignment="center"
-        android:textSize="50dp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
         android:id="@+id/button_Back"
@@ -28,7 +28,7 @@
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_constraintRight_toRightof="parent"></Button>
+        tools:layout_constraintRight_toRightof="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
